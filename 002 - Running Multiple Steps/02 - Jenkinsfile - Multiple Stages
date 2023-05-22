@@ -12,7 +12,7 @@ pipeline {
     }
     stage('test'){
     steps{
-     sh "grep '2023' test"
+     sh "grep '2022' test"
      }
     }
 }
