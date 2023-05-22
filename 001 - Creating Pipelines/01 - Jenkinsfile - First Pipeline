@@ -1,7 +1,7 @@
 pipeline {
     agent { 
 		docker { 
-			image 'alpine:999999999' 
+			image 'alpine:latest' 
 		}
 	}
     stages {
