@@ -9,7 +9,6 @@ pipeline {
       steps {
         saveAndPrintDate("test")
     	}
-
     }
     stage('test'){
     steps{
@@ -17,12 +16,10 @@ pipeline {
      }
     }
 }
-
 def saveAndPrintDate(filename = '') {
   sh "date > $filename && cat $filename"
 }
-
-
+}
 
 
 
